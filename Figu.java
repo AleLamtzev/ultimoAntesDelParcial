@@ -19,7 +19,7 @@ public class Figu extends Coleccionable{
         if (filtro.cumple(this)) {
             salida.add(this);
         }
-        return null;
+        return salida;
     }
 
     public double getPrecio() {
