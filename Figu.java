@@ -7,7 +7,8 @@ public class Figu extends Coleccionable{
     protected int numero;
     protected double precio;
     //const
-    public Figu(String album, int numero, double precio) {
+    public Figu(String nombre, String album, int numero, double precio) {
+        this.nombre = nombre;
         this.album = album;
         this.numero = numero;
         this.precio = precio;
